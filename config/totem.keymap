@@ -298,7 +298,7 @@
                 bck_layer: tap_dance_mod_tap {
                         compatible = "zmk,behavior-tap-dance";
                         #binding-cells = <0>;
-                        tapping-terms-ms = <HOOLDTAP>;
+                        tapping-terms-ms = <HOLDTAP>;
                         bindings = <BCK>, <&lt 5 LG(SPACE)>;
                 };
         // Double Tap for Layer 4 and HT CMD and Tap Enter
