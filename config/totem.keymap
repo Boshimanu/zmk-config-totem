@@ -295,7 +295,7 @@
                         tapping-term-ms = <HOLDTAP>; //old 200
                         bindings = <&mt LG(LC(LS(N4)))  LG(LS(N2))>, <&mt LG(LS(N5))  LG(LS(N4))>;
                 };
-                bck_layer: tap_dance_mod_tap {
+                bck_layer: bck_layear {
                         compatible = "zmk,behavior-tap-dance";
                         #binding-cells = <0>;
                         tapping-terms-ms = <HOLDTAP>;
