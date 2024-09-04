@@ -295,6 +295,12 @@
                         tapping-term-ms = <HOLDTAP>; //old 200
                         bindings = <&mt LG(LC(LS(N4)))  LG(LS(N2))>, <&mt LG(LS(N5))  LG(LS(N4))>;
                 };
+                bck_layer: tap_dance_mod_tap {
+                        compatible = "zmk,behavior-tap-dance";
+                        #binding-cells = <0>;
+                        tapping-terms-ms = <HOOLDTAP>;
+                        bindings = <BCK>, <&lt 5 LG(SPACE)>;
+                };
         // Double Tap for Layer 4 and HT CMD and Tap Enter
                 // tap_layer4:tap_layer4 {
                 //         compatible = "zmk,behavior-tap-dance";
@@ -347,7 +353,7 @@ label= "Base"                              ;
                         AS(Q)         AS(W)          AS(F)            AS(P)         AS(G)                      AS(J)           AS(L)          AS(U)          AS(Y)       AS(SEMI)     
                         AS(A)         AS(R)          AS(S)            AS(T)         AS(D)                      AS(H)           AS(N)          AS(E)          AS(I)       AS(O)       
           BCK           AS(Z)         AS(X)          AS(C)            AS(V)         AS(B)                      AS(K)           AS(M)          AS(COMMA)      AS(DOT)     AS(SLASH)      AS(SQT)
-                                                     &lt 5 LG(SPACE)   &lt 1 SPACE   &ht RCMD RET               &ht RCMD RET    &lt 2 SPACE    &mo 4
+                                                     &bck_layer       &lt 1 SPACE   &ht RCMD RET               &ht RCMD RET    &lt 2 SPACE    &mo 4
         >;
                 };
 // ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
