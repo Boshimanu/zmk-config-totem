@@ -399,8 +399,8 @@
 //                                              ┗━━━━━━━━━━━━━━┻━━━━━━━━━━━━━━┻━━━━━━━━━━━━━━┛          ┗━━━━━━━━━━━━━━┻━━━━━━━━━━━━━━┻━━━━━━━━━━━━━━┛
         bindings = <
 // ╷              ╷              ╷              ╷              ╷              ╷              ╷          ╷              ╷              ╷              ╷              ╷              ╷              ╷ 
-                        AS (TAB)        &trans        &trans     &kp C_BRI_INC  &kp C_VOL_UP               &kp DEL       &kp LA(LEFT)     &kp UP        &kp LA(RIGHT)    &kp PG_UP  
-                        BCk             &trans        &trans     &kp C_BRI_DEC  &kp C_VOL_DN               &kp LG(UP)    &kp LEFT         &kp DOWN      &kp RIGHT        &kp PG_DN    
+                        AS(TAB)         &trans        &trans     &kp C_BRI_INC  &kp C_VOL_UP               &kp DEL       &kp LA(LEFT)     &kp UP        &kp LA(RIGHT)    &kp PG_UP  
+                        BCK             &trans        &trans     &kp C_BRI_DEC  &kp C_VOL_DN               &kp LG(UP)    &kp LEFT         &kp DOWN      &kp RIGHT        &kp PG_DN    
         &trans          &trans          &trans        &trans     &trans         &trans                     &kp LG(DOWN)  &kp LG(LEFT)     &kp END       &kp LG(RIGHT)    &kp HOME    &kp LA(LC(SPACE))
                                                       &trans     &trans         &kp trans                  &kp trans     &trans           &trans
                         >;
