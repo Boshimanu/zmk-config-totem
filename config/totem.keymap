@@ -21,12 +21,12 @@
 #define COMBOMS 30
 #define HOLDTAP 165 // Old Value 150
 #define MACRO_WAIT_TIME 25
-#define BASE 0
-#define NUMBERS  1
-#define SYM  2
-#define ADJ  3
-#define TVP1 4
-#define TVP2 5
+#define BASE   0
+#define NUMBER 1
+#define SYM    2
+#define ADJ    3
+#define TVP1   4
+#define TVP2   5
 
 // &mt {
 //   quick-tap-ms = <100>;
@@ -336,9 +336,9 @@ label= "Base"                              ;
 // ╷              ╷              ╷              ╷              ╷              ╷              ╷          ╷              ╷              ╷              ╷              ╷              ╷              ╷
                         AS(Q)         AS(W)          AS(F)            AS(P)         AS(G)                      AS(J)           AS(L)          AS(U)          AS(Y)       AS(SEMI)     
                         AS(A)         AS(R)          AS(S)            AS(T)         AS(D)                      AS(H)           AS(N)          AS(E)          AS(I)       AS(O)       
-        BCK             AS(Z)         AS(X)          AS(C)            AS(V)         AS(B)                      AS(K)           AS(M)          AS(COMMA)      AS(DOT)     AS(SLASH)      AS(SQT)
+          BCK           AS(Z)         AS(X)          AS(C)            AS(V)         AS(B)                      AS(K)           AS(M)          AS(COMMA)      AS(DOT)     AS(SLASH)      AS(SQT)
                                                      &lt 5 LG(PACE)   &lt 1 SPACE   &ht RCMD RET               &ht RCMD RET    &lt 2 SPACE    &mo 4
-                        >;
+        >;
                 };
 // ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
 
@@ -362,7 +362,7 @@ label= "Number"                            ;
                         AS(N1)       AS(N2)        AS(N3)         AS(N4)          AS(N5)                    AS(N6)          AS(N7)          AS(N8)        AS(N9)          AS(N0)        AS(EQUAL)
         &trans          &trans       &kp LBKT      &kp LC(LEFT)   &kp LC(RIGHT)   &kp LA(LS(O))             &kp PLUS        AS(MINUS)       &trans        &trans          &trans        AS(GRAVE)  
                                                    &trans          &trans         &trans                    &trans          &trans          &trans
-                        >;
+        >;
                 };
         };
 };
