@@ -229,7 +229,7 @@
                 combo_tab {
                         timeout-ms = <COMBOMS>;
                         key-positions = <0 1>;
-                        bindings = <&kp TAB>;
+                        bindings = <&ht LS(TAB) TAB>;
                 };
                 combo_shift {
                         timeout-ms = <COMBOMS>;
